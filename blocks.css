@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.center{
+    text-align: center;
+    width: 100%;
+    padding: 6px;
+    text-decoration: none ;
+    
+
+}
+a:link {
+    background-color: rgb(51, 10, 216);
+    padding: 3px;
+    color: #fff;
+    text-decoration: none
+  }
+  
+  a:visited {
+    background-color: rgb(51, 10, 216);
+    padding: 3px;
+    color: #fff;
+    text-decoration: none
+
+  }
+  
+  a:hover {
+    background-color: rgb(51, 10, 216);
+    padding: 3px;
+    color: #fff;
+    text-decoration: none
+
+  }
+  
+  a:active {
+    background-color:rgb(51, 10, 216);
+    color: #fff;
+
+  } 
+  
+
+main {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    background-color: white;
+    width: 25%;
+    border: 5px solid violet;
+    padding: 5px;
+    margin: 5px;
+  }
+
+.box {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+    padding: 5px;
+    flex: 1 1 calc(25% - 40px);
+    box-sizing: border-box;
+}
+
+#box1 {
+    border: 5px solid orange;
+}
+
+#box2 {
+    border: 5px solid green;
+}
+
+#box3 {
+    border: 5px solid yellow;
+}
+
+#box4 {
+    border: 5px solid blue;
+    
+}
+
+.box h2 {
+    margin-top: 0;
+}
+
+.box p {
+    margin: 0;
+}
